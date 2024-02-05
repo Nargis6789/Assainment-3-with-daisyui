@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assainment with DaisyUI</title>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+    .font-manrope{font-family: 'Manrope', sans-serif;}
+</style>
+</head>
+<body class="font-manrope">
+    <header>
+<nav>
+    <div class="containar mx-auto lg:px-24 px-8">
+    <div class="navbar bg-base-100">
+        <div class="flex flex-1">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">Hockey's</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class="">
+          <a class="btn btn-error">Button</a>
+        </div>
+      </div>
+</nav>
+<div class="relative mx-auto lg:px-24 px-8">
+  <img src="Images/1.png" alt="">
+  <div class="bg-black absolute bottom-10 leaft-20 w-65 lg: px-5 px2 text-white ">
+    <h1 class="text-2xl">Meet all heroes from the field</h1>
+    <p>The FIH Men's Hockey World Cup is being held every four years since its inception in 1971. </p>
+  </div>
+</div>
+    </header>
+    <main>
+      <section class="mx-auto lg:px-24 px-8 my-10">
+        <div class="text-center">
+          <h1 class="text-3xl">Professional Hockeys Club</h1>
+          <p>The official National Hockey League website including news, rosters, stats, schedules, teams, and video.</p>
+        </div>
+        <div class="grid grid-col-1 lg:grid-cols-4 gap-8 my-10">
+        <div>
+        <div class="radial-progress text-error" style="--value:87;" role="progressbar">87%</div>
+        <h3 class="text-2xl">Player Facility</h3>
+        <p>We provides a full range of athlete/hockey skills programming as well as the home to Top Form Gym.</p>
+        </div>
+        <div>
+        <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
+        <h3 class="text-2xl">Experienced Coach</h3>
+        <p>We provides a full range of athlete/hockey skills programming as well as the home to Top Form Gym.</p>
+        </div>
+        <div>
+        <div class="radial-progress text-warning" style="--value:90;" role="progressbar">90%</div>
+        <h3 class="text-2xl">Senior Player</h3>
+        <p>We provides a full range of athlete/hockey skills programming as well as the home to Top Form Gym.</p>
+        </div>
+        <div>
+        <div class="radial-progress text-blue-700" style="--value:80;" role="progressbar">80%</div>
+        <h3 class="text-2xl">Training Ground</h3>
+        <p>We provides a full range of athlete/hockey skills programming as well as the home to Top Form Gym.</p>
+        </div>
+        </div>
+      </section>
+      <section class="mx-auto lg:px-24 px-8 my-10">
+        <div class="text-center">
+          <h1 class="text-3xl">Program Section</h1>
+          <p>Check the brackets and schedules for all the section and <br>state boys hockey tournaments.</p>
+        </div>
+        <div class="grid grid-col-1 lg:grid-cols-2 gap-8 my-10">
+          <div>
+            <div class="relative">
+            <img src="Images/2.png" alt="">
+            <div class="absolute bottom-10 p-4 text-white">
+            <h3 class="text-3xl">Junior Program</h3>
+            <p>Our programs are designed to enable players to develop their individual skills in a fun and rewarding environment. </p>
+            <a class="btn btn-error text-white">Register Now</a>
+            </div>
+            </div>
+          </div>
+          <div>
+            <div class="relative">
+            <img src="Images/3.png" alt="">
+            <div class="absolute bottom-10 p-4 text-white">
+            <h3 class="text-3xl">Teenager Program</h3>
+            <p>Our programs are designed to enable players to develop their individual skills in a fun and rewarding environment. </p>
+            <a class="btn btn-error text-white">Register Now</a>
+            </div>
+            </div>
+          </div>
+          </div>
+          <div class="relative">
+              <img src="Images/4.png" alt="">
+              <div class="absolute bottom-10 p-4 text-white">
+              <h3 class="text-3xl">Professional Program</h3>
+              <p>Our programs are designed to enable players to develop their individual skills in a fun and rewarding environment. </p>
+              <a class="btn btn-error text-white">Register Now</a>
+            </div>
+          </div>
+      </section>
+      <section class="mx-auto lg:px-24 px-8 my-5">
+        <div class="text-center my-5">
+          <h1 class="text-3xl">Our New Products</h1>
+          <p>Shop our selection of new hockey equipment arrivals from signature brands.</p>
+        </div>
+        <div class="grid grid-col-1 lg:grid-cols-2 gap-5 my-2">
+          <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/5.png" />
+              <div>
+                <h1 class="font-bold">World Cup Flags Football</h1>
+               <p>Cheer on your home team with our classic red and white Hockeys world cup flag. </p>
+                  <div>
+                    <p class="text-error">Price-$22.00</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/6.png" />
+              <div>
+                <h1 class="font-bold">World Cup Flags Football</h1>
+               <p>Cheer on your home team with our classic red and white Hockeys world cup flag. </p>
+                  <div>
+                    <p class="text-error">Price-$22.00</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="grid grid-col-1 lg:grid-cols-2 gap-5 my-2">
+          <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/7.png"/>
+              <div>
+                <h1 class="font-bold">World Cup Flags Football</h1>
+               <p>Cheer on your home team with our classic red and white Hockeys world cup flag. </p>
+                  <div>
+                    <p class="text-error">Price-$22.00</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/8.png"/>
+              <div>
+                <h1 class="font-bold">World Cup Flags Football</h1>
+               <p>Cheer on your home team with our classic red and white Hockeys world cup flag. </p>
+                  <div>
+                    <p class="text-error">Price-$22.00</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="grid grid-col-1 lg:grid-cols-2 gap-8 my-2">
+          <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/9.png" />
+              <div>
+                <h1 class="font-bold">World Cup Flags Football</h1>
+               <p>Cheer on your home team with our classic red and white Hockeys world cup flag. </p>
+                  <div>
+                    <p class="text-error">Price-$22.00</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/10.png"/>
+              <div>
+                <h1 class="font-bold">World Cup Flags Football</h1>
+               <p>Cheer on your home team with our classic red and white Hockeys world cup flag. </p>
+                  <div>
+                    <p class="text-error">Price-$22.00</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mx-auto lg:px-24 px-8 my-10">
+        <div class="text-center">
+          <h1 class="text-3xl">Client Question</h1>
+          <p>That is one of the most asked questions I hear when going to hockey game by fans. </p>
+        </div>
+        <div class="hero min-h-screen bg-base-200 my-10">
+          <div class="hero-content flex-col lg:flex-row">
+            <img src="Images/11.png" class="max-w-sm rounded-lg shadow-2xl" />
+            <div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" checked="checked" /> 
+                <div class="collapse-title text-xl font-medium">
+                  Our Equipment
+                </div>
+                <div class="collapse-content"> 
+                  <p>Your hockey stick is like your weapon on the battlefield.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-medium">
+                  Hockey Training
+                </div>
+                <div class="collapse-content"> 
+                  <p>Hockey training programs designed to help hockey players improve their game</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-medium">
+                  Private Lessons
+                </div>
+                <div class="collapse-content"> 
+                  <p>Individual lessons consist of 1-4 players that skate for a 30-minute session each week.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-medium">
+                Ski Touring
+                </div>
+                <div class="collapse-content"> 
+                  <p>Ski touring is skiing in the backcountry on unmarked or unpatrolled areas</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-medium">
+                  Booking
+                </div>
+                <div class="collapse-content"> 
+                  <p>Choose From a Wide Range of Properties Which Booking.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-medium">
+                  Pricing
+                </div>
+                <div class="collapse-content"> 
+                  <p>Pricing is a process of fixing the value that a manufacturer will receive in the exchange of services and goods.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mx-auto lg:px-24 px-8 my-10">
+        <div class="text-center">
+          <h1 class="text-3xl">Get In Touch</h1>
+          <p>If you get in touch with us, you contact us by writing or phoning.</p>
+        </div>
+        <div class="my-10 flex flex-col lg:flex-row gap-5">
+          <div>
+<div class="bg-lime-200 p-4">
+<img src="Images/Group 1171275317.png" alt="">
+<p>Phone Number:</p>
+<h3>(+62)123-321-543</h3>
+</div>
+<div class="bg-orange-50 my-5 p-4">
+  <img src="Images/Group 1171275318.png" alt="">
+  <p>Email:</p>
+  <h3>hockey@support.com</h3>
+</div>
+<div class="bg-gray-200 p-4">
+  <img src="Images/Group 1171275321.png" alt="">
+  <p>Location:</p>
+  <h3>152/1 Mohakhali Wireless Gate</h3>
+</div>
+        </div>
+        <div>
+          <div class="flex flex-col lg:flex-row gap-5">
+          <div>
+            <form>
+              <p>Your Name</p>
+              <input type="text" placeholder="Enter your full name" class="bg-base-200 p-4">
+              <p>Subject</p>
+              <input type="text" placeholder="Enter your subject" class="bg-base-200 p-4">
+            </form>
+          </div>
+          <div>
+            <p>Your Email</p>
+            <input type="text" placeholder="Enter your email" class="bg-base-200 p-4">
+            <p>Phone</p>
+            <input type="text" placeholder="Enter your phone number" class="bg-base-200 p-4">
+          </div>
+          </div>
+          <div>
+            <h3>Message</h3>
+            <p class="bg-base-200 p-4">Write your message</p>
+          </div>
+          <div>
+            <a class="btn btn-error my-5">Send message</a>
+          </div>
+        </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="mx-auto lg:px-24 px-10 my-10 ">
+      <div class="footer footer-center p-4 bg-base-300 text-base-content">
+        <aside>
+          <head>Social Media</head>
+          <img src="Images/Social.svg" alt="">
+        </aside>
+      </div>
+      <div class="footer p-10 bg-base-200 text-base-content my-10 bg-black">
+        <nav>
+          <h6 class="footer-title text-white">Get In Touch</h6> 
+          <p>If you get in touch with ous, you <br> contact us by writing or phoning . </p>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title text-white">Company</h6> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Leadership</a>
+          <a class="link link-hover">Careers</a>
+          <a class="link link-hover">News & Article</a>
+          <a class="link link-hover">Legal Notice</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title text-white">Support</h6> 
+          <a class="link link-hover">help Center</a>
+          <a class="link link-hover">FAQ</a>
+          <a class="link link-hover">Ticket Support</a>
+          <a class="link link-hover">Contact us</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title text-white">Services</h6> 
+          <a class="link link-hover">Academy</a>
+          <a class="link link-hover">Group Lessons</a>
+          <a class="link link-hover">private lessons</a>
+          <a class="link link-hover">Hockeys for kids</a>
+          <a class="link link-hover">Hockeys for Adult</a>
+        </nav> 
+      </div>
+      </div>
+    </footer>
+</body>
+</html>
